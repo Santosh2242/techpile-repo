@@ -4,4 +4,6 @@ In a repo, one party sells an asset (usually fixed-income securities) to another
 ~~~
 window.alert('this is a Alert Box')
 ~~~
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR88J9-Ick_tj86XWS2BHfU5KOwljuJxSmVnywsaQZxTSCy1fXE1A1aYL5Z9nOhHMhJPMU&usqp=CAU
+
+
+![abc](https://user-images.githubusercontent.com/83979714/143727833-0b1cd393-ccbe-403b-929d-80d72f68b5eb.png)
