@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #dv1,#dv3
+      {
+        height:100px;
+        width:100px;
+        background:orange;
+        color:white;
+        font-size:80px;
+        line-height:100px;
+        float:left;
+        border:10px solid purple;
+      }
+      #dv2
+      {
+        height:100px;
+        width:100px;
+        background:red;
+        color:white;
+        font-size:80px;
+        line-height:100px;
+        float:left;
+        border:10px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dv1"> A </div>
+    <div id="dv2"> B </div>
+    <div id="dv3"> C </div>
+    <button type="button" name="button">Swap</button>
+    <script type="text/javascript">
+        function demo()
+        {
+          var d1=document.getElementById("dv1")
+          var d2=document.getElementById("dv2")
+          var d3=document.getElementById("dv3")
+          var txt1=d1.innerText
+          var txt2=d2.innerText
+          var txt3=d3.innerText
+          d1.innerText=txt2
+          d2.innerText=txt3
+          d3.innerText=txt1
+        }
+        setInterval(demo,1000)
+    </script>
+  </body>
+</html

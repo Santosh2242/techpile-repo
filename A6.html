@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Value Swapping using javascript</title>
+  </head>
+  <body>
+    <input type="text" name="" value="" id="txt1">
+    <input type="text" name="" value="" id="txt2">
+    <button type="button" name="button" ondblclick="demo()">SWAP VALUE</button>
+          <script type="text/javascript">
+            function demo()
+            {
+              var t1 = document.getElementById("txt1")
+              var t2 = document.getElementById("txt2")
+              var v1 = t1.value
+              var v2 = t2.value
+              t1.value=v2
+              t2.value=v1
+
+            }
+          </script>
+  </body>
+</html>

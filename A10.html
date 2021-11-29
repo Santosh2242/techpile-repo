@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hide and Show password</title>
+  </head>
+  <body>
+    <input type="password" id="txt1"><br>
+    <inputZ type="button" id="btn" onclick="demo()" value="Show password">
+    <script type="text/javascript">
+      function demo()
+      {
+        var t = document.getElementById("txt1")
+        var b = document.getElementById("btn")
+        if (b.value=="Show password")
+        {
+          b.value="Hide password"
+          t.type="text"
+          b.style.background="red";
+          b.style.color="white";
+        }
+        else
+        {
+          b.value="Show password"
+          t.type="password"
+          b.style.background="green"
+          b.style.color="white"
+        }
+      }
+    </script>
+  </body>
+</html>
++

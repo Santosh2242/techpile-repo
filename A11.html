@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #im1{
+        height:300px;
+        width:800px;
+        float:left;
+        margin:0px 300px auto;
+      }
+      #im2{
+        height:300px;
+        width:400px;
+
+      }
+      #im3{
+        height:300px;
+        width:400px;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <img src="1.jpg" alt="" id="im1"><br>
+    <img src="2.jpg" alt="" onmouseover="demo(this)" id="im2">
+    <img src="books.jpg" alt="" onmouseover="demo(this)" id="im3">
+    <script type="text/javascript">
+      function demo(x)
+      {
+        var im=document.getElementById("im1")
+        im.src=x.src
+      }
+    </script>
+  </body>
+</html>
